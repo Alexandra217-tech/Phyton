@@ -1,3 +1,4 @@
+""" import datetime
 b1=int(input("Введите сумму Белладжио в чеке: "))
 a1=int(input("Введите сумму Авалон в чеке: "))
 
@@ -14,3 +15,24 @@ elif (v(b1, b2))==0:
 else:
     print ("Снять с Биладжио: ", abs(v(b1, b2)))
 
+
+
+dt_now = datetime.datetime.now()
+print(dt_now)
+
+
+ """
+
+""" pip3 install --user pyTelegramBotAPI
+ """
+
+""" import telebot
+bot = telebot.TeleBot("6278611193:AAEdTALucmAoDSkOV2cQbOZEXoWwFgOkBVs")
+@bot.message.handlers(commands=["start"])
+def start (message):
+    bot.send_message(message.chat.id, "<b>Привет</b>", parse_mode="html")
+bot.pollyng(none_stop=True) """
+
+import datetime
+
+print (datetime.datetime.now())
